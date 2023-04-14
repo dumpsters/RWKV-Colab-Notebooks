@@ -4,9 +4,9 @@ These use [GPT-NeoX's tokenizer](https://github.com/EleutherAI/gpt-neox/blob/b47
 
 Sample dataset jsonl file:
 ```json
-{"text": "This is a sentence<|endoftext|>"}
-{"text": "And this is another one<|endoftext|>"}
-{"text": "Don't forget me<|endoftext|>"}
+{"text": "This is a sentence"}
+{"text": "And this is another one>"}
+{"text": "Don't forget me"}
 ```
 The tokenizer will combine all jsonl files into two files the train script will read. Read the outputs of the cells to know what to do.
 
